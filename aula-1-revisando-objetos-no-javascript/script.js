@@ -1,16 +1,16 @@
-// const book = {
-//     title: 'Eragon',
-//     pages: 468,
-//     published: true,
-//     inStock: 20,
-//     tags: ['fantasy', 'adventure', 'medieval'],
-//     author: {
-//         name: 'Christopher Paolini',
-//     },
-//     addOnStock(quantity){
-//         this.inStock =+ quantity
-//     },
-// }
+const book = {
+  title: "Eragon",
+  pages: 468,
+  published: true,
+  inStock: 20,
+  tags: ["fantasy", "adventure", "medieval"],
+  author: {
+    name: "Christopher Paolini",
+  },
+  addOnStock(quantity) {
+    this.inStock = +quantity;
+  },
+};
 
 // PascalCase
 function Book(title, pages, tags, author) {
@@ -28,14 +28,14 @@ function Book(title, pages, tags, author) {
   };
 }
 
-const author = { name: 'Christopher Paolini' }
-const tags = ['fantasy', 'adventure']
+const author = { name: "Christopher Paolini" };
+const tags = ["fantasy", "adventure"];
 
-const eragon = new Book('Eragon', 468, tags, author)
-console.log(eragon)
+const eragon = new Book("Eragon", 468, tags, author);
+console.log(eragon);
 
-const eldest = new Book('Eldest', 644, tags, author)
-console.log(eldest)
+const eldest = new Book("Eldest", 644, tags, author);
+console.log(eldest);
 
 // console.log(book);
 // book.addOnStock(50);
